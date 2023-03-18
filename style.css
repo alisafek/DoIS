@@ -112,9 +112,9 @@ nav .fa {
   position: relative;
 }
 
-.container {
+.container-offer {
   width: 90%;
-  top: 20%;
+  top: 25%;
   left: 50%;
   position: absolute;
   color: #333;
@@ -122,23 +122,23 @@ nav .fa {
   transform: translate(-50%, -50%);
 }
 
-.container h2 {
+.container-offer h2 {
   font-size: 52px;
 }
 
-.container p {
+.container-offer p {
   margin: 20px 0 40px;
   font-size: 18px;
   color: #767676;
 }
 
-.grid-3-cols {
+.grid-3-cols-offer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   /* margin: 5px 0; */
   width: 60%;
-  top: 60%;
+  top: 65%;
   left: 50%;
   position: absolute;
   color: #333;
@@ -146,27 +146,27 @@ nav .fa {
   transform: translate(-50%, -50%);
 }
 
-.column {
+.column-offer {
   flex: 1;
   border: none;
   margin: 10px;
   padding: 20px;
   border-radius: 10px;
   background-color: #fff3f3;
-  /* &:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; } */
 }
 
-.column h3 {
+.column-offer h2 {
   margin: 0px;
   padding: 20px;
 }
 
-.column p {
+.column-offer p {
   color: #767676;
   margin: 0px;
   padding: 10px;
+  margin-bottom: 10px;
 }
+
 /* ----Responcive Design-------- */
 
 @media (max-width: 700px) {
