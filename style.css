@@ -47,7 +47,7 @@ nav img {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .nav-links ul li::after {
@@ -79,8 +79,8 @@ nav img {
 }
 
 .text-box p {
-  margin: 10px 0 40px;
-  font-size: 14px;
+  margin: 20px 0 40px;
+  font-size: 18px;
   color: white;
 }
 
@@ -90,7 +90,7 @@ nav img {
   color: white;
   border: 1px solid white;
   padding: 12px 34px;
-  font-size: 13px;
+  font-size: 18px;
   position: relative;
 }
 
@@ -104,6 +104,69 @@ nav .fa {
   display: none;
 }
 
+.offer {
+  min-height: 70vh;
+  width: 100%;
+  /* background-position: center; */
+  /* background-size: cover; */
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  top: 20%;
+  left: 50%;
+  position: absolute;
+  color: #333;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.container h2 {
+  font-size: 52px;
+}
+
+.container p {
+  margin: 20px 0 40px;
+  font-size: 18px;
+  color: #767676;
+}
+
+.grid-3-cols {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* margin: 5px 0; */
+  width: 60%;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  color: #333;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.column {
+  flex: 1;
+  border: none;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff3f3;
+  /* &:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; } */
+}
+
+.column h3 {
+  margin: 0px;
+  padding: 20px;
+}
+
+.column p {
+  color: #767676;
+  margin: 0px;
+  padding: 10px;
+}
 /* ----Responcive Design-------- */
 
 @media (max-width: 700px) {
