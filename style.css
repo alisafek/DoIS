@@ -232,6 +232,39 @@ nav .fa {
   margin: 40px;
 }
 
+.footer {
+  min-height: 50vh;
+  width: 100%;
+  /* background-position: center; */
+  /* background-size: cover; */
+  position: relative;
+}
+
+.container-footer {
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  color: #333;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.container-footer h3 {
+  font-size: 22px;
+}
+
+.container-footer p {
+  margin: 20px 0 40px;
+  font-size: 15px;
+  color: #767676;
+}
+
+.container-footer i {
+  margin: 10px;
+  color: #f44336;
+}
+
 /* ----Responcive Design-------- */
 
 @media (max-width: 700px) {
