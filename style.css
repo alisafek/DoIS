@@ -164,6 +164,13 @@ nav .fa {
   padding: 10px;
 }
 
+.column-offer:hover {
+  border: 1px #f5e6e6;
+  /* background: #f5e6e6; */
+  transition: 1s;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
 .menu {
   min-height: 70vh;
   width: 100%;
