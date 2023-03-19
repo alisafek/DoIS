@@ -104,6 +104,8 @@ nav .fa {
   display: none;
 }
 
+/* ----------------SECTION OFFER-----------------------*/
+
 .offer {
   min-height: 70vh;
   width: 100%;
@@ -170,7 +172,7 @@ nav .fa {
   transition: 1s;
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
-
+/* ----------------SECTION MENU-----------------------*/
 .menu {
   min-height: 70vh;
   width: 100%;
@@ -254,11 +256,11 @@ nav .fa {
   opacity: 1;
 }
 
+/* ----------------SECTION TESTIMINIALS-----------------------*/
+
 .testimonials {
   min-height: 70vh;
   width: 100%;
-  /* background-position: center; */
-  /* background-size: cover; */
   position: relative;
 }
 
@@ -282,18 +284,28 @@ nav .fa {
   color: #767676;
 }
 
-.grid-2-cols-offer {
+.grid-2-cols-testimonials {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /* margin: 5px 0; */
-  width: 100%;
+  width: 90%;
   top: 50%;
   left: 50%;
   position: absolute;
   text-align: center;
   transform: translate(-50%, -50%);
 }
+
+.column-testimonials {
+  flex: 1;
+  border: none;
+  margin: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff3f3;
+}
+
+/* ----------------SECTION CINTACT-----------------------*/
 
 .contact {
   min-height: 100vh;
@@ -311,6 +323,8 @@ nav .fa {
 .contact h1 {
   margin: 40px;
 }
+
+/* ----------------SECTION FOOTER-----------------------*/
 
 .footer {
   min-height: 50vh;
