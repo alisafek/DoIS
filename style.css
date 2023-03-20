@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -357,6 +358,70 @@ nav .fa {
 .container-footer i {
   margin: 10px;
   color: #f44336;
+}
+
+/* ----------------CONTACT US PAGE-----------------------*/
+
+.section-cta {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(212, 122, 183, 0.7),
+      rgba(194, 197, 250, 0.7)
+    ),
+    url(images/.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+nav img {
+  width: 150px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  background: purple;
+  height: 2px;
+  display: block;
+  margin: auto;
+  transition: 1.5s;
+}
+
+.nav-links ul li:hover:after {
+  width: 100%;
+}
+
+nav .fa {
+  display: none;
 }
 
 /* ----Responcive Design-------- */
