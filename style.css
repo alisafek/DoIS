@@ -306,6 +306,20 @@ nav .fa {
   background-color: #fff3f3;
 }
 
+.column-testimonials img {
+  border-radius: 50%;
+}
+
+.customers th {
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.column-testimonials th {
+  text-align: left;
+}
+
 /* ----------------SECTION CINTACT-----------------------*/
 
 .contact {
@@ -520,3 +534,30 @@ textarea {
     cursor: pointer;
   }
 }
+/* 
+@media screen and (max-width: 600px) {
+  .nav-links a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .offer,
+  .container-offer,
+  .grid-3-cols-offer,
+  .column-offer,
+  .menu .container-menu,
+  .column-menu,
+  .testimonials,
+  .container-testimonials,
+  .grid-2-cols-testimonials,
+  .column-testimonials,
+  .contact,
+  .text-box,
+  .footer,
+  .container-footer {
+    width: 100%;
+    float: none;
+  }
+} */
