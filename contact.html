@@ -39,6 +39,79 @@
         </div>
         <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
       </nav>
+
+      <div class="container-form">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h1>Contact Us</h1>
+            <p>Do you have any questions? Please write to us!</p>
+            <br />
+
+            <!-- <form class="cta-form" name="sign-up" netlify> -->
+            <form action="/action_page.php">
+              <div>
+                <label for="full-name">Full Name</label> <br />
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Anna Pavlova"
+                  name="full-name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email address</label> <br />
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="phone">Phone number</label> <br />
+                <input
+                  id="phone"
+                  type="number"
+                  placeholder="+372 5655 4321"
+                  name="phone"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-where">Where did you hear from us?</label>
+                <br />
+                <select id="select-where" name="select-where" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Words of mouth</option>
+                  <option value="youtube">On the Internet</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="write-text">Text</label> <br />
+                <input
+                  id="write-text"
+                  type="text"
+                  placeholder="Feel free to ask any questions or write any comments"
+                  name="write-text"
+                  required
+                />
+              </div>
+
+              <button class="btn btn--form">Submit</button>
+
+              <!-- <input type="checkbox" />
+          <input type="number" /> -->
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
