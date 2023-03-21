@@ -533,31 +533,8 @@ textarea {
     font-size: 22px;
     cursor: pointer;
   }
-}
-/* 
-@media screen and (max-width: 600px) {
-  .nav-links a {
-    float: none;
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 800px) {
-  .offer,
-  .container-offer,
-  .grid-3-cols-offer,
-  .column-offer,
-  .menu .container-menu,
-  .column-menu,
-  .testimonials,
-  .container-testimonials,
-  .grid-2-cols-testimonials,
-  .column-testimonials,
-  .contact,
-  .text-box,
-  .footer,
-  .container-footer {
-    width: 100%;
-    float: none;
+  section .grid-3-cols-menu {
+    flex-direction: column;
   }
-} */
+}
