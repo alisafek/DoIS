@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100%;
   background-image: linear-gradient(
       rgba(213, 46, 160, 0.7),
@@ -19,6 +19,7 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
+  margin-bottom: 100px;
 }
 
 nav {
@@ -108,21 +109,25 @@ nav .fa {
 /* ----------------SECTION OFFER-----------------------*/
 
 .offer {
-  min-height: 70vh;
-  width: 100%;
+  /* min-height: 100vh; */
+  /* width: 100%; */
   /* background-position: center; */
   /* background-size: cover; */
-  position: relative;
+  /* position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; */
 }
 
 .container-offer {
-  width: 90%;
+  /* width: 90%;
   top: 25%;
-  left: 50%;
-  position: absolute;
+  left: 50%; */
+  /* position: absolute; */
   color: #333;
   text-align: center;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }
 
 .container-offer h2 {
@@ -130,29 +135,31 @@ nav .fa {
 }
 
 .container-offer p {
-  margin: 20px 0 40px;
+  margin: 20px 40px;
   font-size: 18px;
   color: #767676;
 }
 
 .grid-3-cols-offer {
+  margin: 50px 50px;
+  margin-bottom: 100px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  /* justify-content: center; */
   /* margin: 5px 0; */
-  width: 60%;
+  /* width: 60%;
   top: 65%;
-  left: 50%;
-  position: absolute;
+  left: 50%; */
+  /* position: absolute; */
   color: #333;
   text-align: center;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }
 
 .column-offer {
   flex: 1;
   border: none;
-  margin: 30px;
+  margin: 10px 50px;
   padding: 15px;
   border-radius: 10px;
   background-color: #fff3f3;
@@ -180,6 +187,7 @@ nav .fa {
   /* background-position: center; */
   /* background-size: cover; */
   position: relative;
+  margin-bottom: 70px;
 }
 
 .container-menu {
@@ -204,7 +212,7 @@ nav .fa {
 
 .grid-3-cols-menu {
   display: flex;
-  flex-flow: row wrap;
+  /* flex-flow: row wrap; */
   justify-content: center;
   /* margin: 5px 0; */
   width: 60%;
@@ -260,19 +268,19 @@ nav .fa {
 /* ----------------SECTION TESTIMINIALS-----------------------*/
 
 .testimonials {
-  min-height: 70vh;
+  /* min-height: 70vh;
   width: 100%;
-  position: relative;
+  position: relative; */
 }
 
 .container-testimonials {
-  width: 100%;
+  /* width: 100%;
   top: 20%;
   left: 50%;
-  position: absolute;
+  position: absolute; */
   color: #333;
   text-align: center;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }
 
 .container-testimonials h2 {
@@ -286,21 +294,23 @@ nav .fa {
 }
 
 .grid-2-cols-testimonials {
+  margin: 50px 50px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  width: 90%;
+  /* justify-content: center; */
+  /* width: 90%;
   top: 50%;
   left: 50%;
-  position: absolute;
+  position: absolute; */
   text-align: center;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
+  margin-bottom: 100px;
 }
 
 .column-testimonials {
   flex: 1;
   border: none;
-  margin: 30px;
+  margin: 10px 50px;
   padding: 15px;
   border-radius: 10px;
   background-color: #fff3f3;
@@ -320,11 +330,11 @@ nav .fa {
   text-align: left;
 }
 
-/* ----------------SECTION CINTACT-----------------------*/
+/* ----------------SECTION CONTACT-----------------------*/
 
 .contact {
-  min-height: 100vh;
-  width: 100%;
+  min-height: 50vh;
+  width: 85%;
   background-image: linear-gradient(
       rgba(136, 136, 136, 0.7),
       rgba(40, 39, 39, 0.7)
@@ -332,17 +342,22 @@ nav .fa {
     url(images/banner2.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 10px;
   position: relative;
+
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact h1 {
-  margin: 40px;
+  margin: 40px 0px;
 }
 
 /* ----------------SECTION FOOTER-----------------------*/
 
 .footer {
-  min-height: 50vh;
+  min-height: 40vh;
   width: 100%;
   /* background-position: center; */
   /* background-size: cover; */
@@ -500,6 +515,19 @@ textarea {
   resize: vertical;
 }
 
+/* ------------ FLEX  ------------------------ */
+/* 
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
+
+/* flex-basis: 100px; */
+/* flex-shrink: 0; */
+/* flex-grow: 1; */
+
 /* ----Responcive Design-------- */
 
 @media (max-width: 700px) {
@@ -534,7 +562,45 @@ textarea {
     cursor: pointer;
   }
 
+  /* .container-menu h2 {
+    font-size: 20px;
+  } */
+  /* section .grid-3-cols-offer {
+    flex-direction: column;
+  } */
+
+  section .container-offer {
+    flex-direction: column;
+  }
+
   section .grid-3-cols-menu {
     flex-direction: column;
   }
 }
+/* 
+@media screen and (max-width: 600px) {
+  .nav-links a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .offer,
+  .container-offer,
+  .grid-3-cols-offer,
+  .column-offer,
+  .menu .container-menu,
+  .column-menu,
+  .testimonials,
+  .container-testimonials,
+  .grid-2-cols-testimonials,
+  .column-testimonials,
+  .contact,
+  .text-box,
+  .footer,
+  .container-footer {
+    width: 100%;
+    float: none;
+  }
+} */
