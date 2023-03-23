@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  min-height: 70vh;
+  min-height: 80vh;
   width: 100%;
   background-image: linear-gradient(
       rgba(213, 46, 160, 0.7),
@@ -109,25 +109,14 @@ nav .fa {
 /* ----------------SECTION OFFER-----------------------*/
 
 .offer {
-  /* min-height: 100vh; */
-  /* width: 100%; */
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-offer {
-  /* width: 90%;
-  top: 25%;
-  left: 50%; */
-  /* position: absolute; */
   color: #333;
   text-align: center;
-  /* transform: translate(-50%, -50%); */
 }
 
 .container-offer h2 {
@@ -141,25 +130,18 @@ nav .fa {
 }
 
 .grid-3-cols-offer {
-  margin: 50px 50px;
+  margin: 50px 80px;
   margin-bottom: 100px;
   display: flex;
   flex-flow: row wrap;
-  /* justify-content: center; */
-  /* margin: 5px 0; */
-  /* width: 60%;
-  top: 65%;
-  left: 50%; */
-  /* position: absolute; */
   color: #333;
   text-align: center;
-  /* transform: translate(-50%, -50%); */
 }
 
 .column-offer {
   flex: 1;
   border: none;
-  margin: 10px 50px;
+  margin: 10px 20px;
   padding: 15px;
   border-radius: 10px;
   background-color: #fff3f3;
@@ -175,29 +157,24 @@ nav .fa {
 }
 
 .column-offer:hover {
-  border: 1px #f5e6e6;
+  border: 1px #e0d3d3;
   /* background: #f5e6e6; */
   transition: 1s;
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  background-color: rgba(224, 211, 211, 0.7);
 }
+
 /* ----------------SECTION MENU-----------------------*/
+
 .menu {
-  /* min-height: 70vh;
-  width: 100%; */
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* position: relative;
-  margin-bottom: 70px; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-menu {
-  /* width: 90%;
-  top: 10%;
-  left: 50%;
-  position: absolute; */
   color: #333;
   text-align: center;
-  /* transform: translate(-50%, -50%); */
 }
 
 .container-menu h2 {
@@ -215,28 +192,14 @@ nav .fa {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* text-align: center; */
-  justify-content: center;
-  /* justify-content: center; */
-  /* margin: 5px 0; */
-  /* width: 60%;
-  top: 59%;
-  left: 50%;
-  position: absolute;
-  
-  /* transform: translate(-50%, -50%); */
+  align-items: center;
 }
 
 .column-menu {
-  /* flex: 1; */
   position: relative;
   margin: 10px 50px;
   width: 300px;
   height: 400px;
-
-  /* padding: 20px;  */
-  /* align-items: center; */
-
   overflow: hidden;
 }
 
@@ -246,26 +209,16 @@ nav .fa {
   height: 100%;
   object-fit: cover;
   transition: filter 0.5s ease;
-  /* display: block;
-  margin: auto; */
-  /* 
-  margin-left: auto;
-  margin-right: auto; */
-  /* width: 70%; */
 }
 
 .column-menu:hover img {
-  filter: brightness(70%);
+  filter: brightness(45%);
 }
 
 .content {
   position: absolute;
-  bottom: 0;
   top: 50%;
-  left: 0;
   width: 100%;
-  padding: 10px;
-  /* background-color: rgba(186, 57, 57, 0.7); */
   color: #fff;
   font-size: 22px;
   text-align: center;
@@ -281,19 +234,14 @@ nav .fa {
 /* ----------------SECTION TESTIMINIALS-----------------------*/
 
 .testimonials {
-  /* min-height: 70vh;
-  width: 100%;
-  position: relative; */
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-testimonials {
-  /* width: 100%;
-  top: 20%;
-  left: 50%;
-  position: absolute; */
   color: #333;
   text-align: center;
-  /* transform: translate(-50%, -50%); */
 }
 
 .container-testimonials h2 {
@@ -307,23 +255,16 @@ nav .fa {
 }
 
 .grid-2-cols-testimonials {
-  margin: 50px 50px;
+  margin-top: 50px;
   display: flex;
-  flex-flow: row wrap;
-  /* justify-content: center; */
-  /* width: 90%;
-  top: 50%;
-  left: 50%;
-  position: absolute; */
-  text-align: center;
-  /* transform: translate(-50%, -50%); */
+  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 
 .column-testimonials {
   flex: 1;
   border: none;
-  margin: 10px 50px;
+  margin: 10px 10px;
   padding: 15px;
   border-radius: 10px;
   background-color: #fff3f3;
@@ -347,7 +288,7 @@ nav .fa {
 
 .contact {
   min-height: 50vh;
-  width: 85%;
+  width: 83%;
   background-image: linear-gradient(
       rgba(136, 136, 136, 0.7),
       rgba(40, 39, 39, 0.7)
@@ -357,7 +298,6 @@ nav .fa {
   background-size: cover;
   border-radius: 10px;
   position: relative;
-
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -370,10 +310,8 @@ nav .fa {
 /* ----------------SECTION FOOTER-----------------------*/
 
 .footer {
-  min-height: 40vh;
+  min-height: 50vh;
   width: 100%;
-  /* background-position: center; */
-  /* background-size: cover; */
   position: relative;
 }
 
@@ -528,22 +466,9 @@ textarea {
   resize: vertical;
 }
 
-/* ------------ FLEX  ------------------------ */
-/* 
-.page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  /* justify-content: space-between; */
-
-/* flex-basis: 100px; */
-/* flex-shrink: 0; */
-/* flex-grow: 1; */
-
 /* ----Responcive Design-------- */
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .text-box h1 {
     font-size: 20px;
   }
@@ -575,13 +500,6 @@ textarea {
     cursor: pointer;
   }
 
-  /* .container-menu h2 {
-    font-size: 20px;
-  } */
-  /* section .grid-3-cols-offer {
-    flex-direction: column;
-  } */
-
   section .container-offer {
     flex-direction: column;
   }
@@ -589,31 +507,24 @@ textarea {
   section .grid-3-cols-menu {
     flex-direction: column;
   }
-}
-/* 
-@media screen and (max-width: 600px) {
-  .nav-links a {
-    float: none;
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 800px) {
-  .offer,
-  .container-offer,
-  .grid-3-cols-offer,
-  .column-offer,
-  .menu .container-menu,
-  .column-menu,
-  .testimonials,
-  .container-testimonials,
-  .grid-2-cols-testimonials,
-  .column-testimonials,
-  .contact,
-  .text-box,
-  .footer,
-  .container-footer {
-    width: 100%;
-    float: none;
+  .grid-3-cols-offer {
+    margin: 40px 58px;
   }
-} */
+
+  .column-menu {
+    margin: 10px 5px;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .grid-2-cols-testimonials {
+    margin-bottom: 30px;
+  }
+
+  .contact {
+    margin-bottom: 20px;
+  }
+}
